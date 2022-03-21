@@ -9,7 +9,7 @@ const fetchPokemon = () => {
 
     fetch(url).then((respuesta) => {
         if (respuesta.status != "200") {
-            Cambio_Imagen("./No_Encontrado.jpg")
+            Cambio_Imagen("./Imágenes/No_Encontrado.jpg")
         }
         else {
             return respuesta.json();
