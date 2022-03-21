@@ -23,6 +23,19 @@
     background-color: #ffffff;
 }
 
+#Botón{
+    background-color: #ffcc01;
+    color: #3362ae;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 20.5px;
+    overflow-wrap: break-word;
+
+}
+
 #Pokedex {
     background-color: #fe0065;
     box-sizing: border-box;
@@ -114,26 +127,38 @@
     overflow-wrap: break-word;
 }
 
-.Cuadrado{
-    width: 20px; 
-    height: 20px;
-}
-
-.Rectángulo {
-    width: 60px; 
-    height: 20px;
-}
-
-.Cuadrado_Con_Borde{
-    width: 35px; 
+#Pantalla_Número{
+    width: 50px;
     height: 35px;
+    border-radius: 5px;
     border: solid black 2px;
+    background-color: #3ab47d;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
+
+#Pantalla_Stats{
+    font-family: 'Press Start 2P', cursive;
+    width: 150px;
+    height: 95px;
+    background-color: #3ab47d;
+    border: solid black 2px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: center;
+    text-align: left;
+    padding-left: 8px;
+    line-height: 2;
 }
 
 .Pantalla_Info {
     font-family: 'Press Start 2P', cursive;
-    width: 146px;
-    height: 64px;
+    width: 150px;
+    height: 95px;
     background-color: #7c7878;
     border: solid black 2px;
     border-radius: 4px;
@@ -149,7 +174,7 @@
 .Pantalla_Tipo {
     font-family: 'Press Start 2P', cursive;
     width: 146px;
-    height: 32px;
+    height: 64px;
     background-color: #7c7878;
     border: solid black 2px;
     border-radius: 4px;
@@ -160,4 +185,20 @@
     text-align: left;
     padding-left: 8px;
     line-height: 2;
+}
+
+.Cuadrado{
+    width: 20px; 
+    height: 20px;
+}
+
+.Rectángulo {
+    width: 60px; 
+    height: 20px;
+}
+
+.Cuadrado_Con_Borde{
+    width: 35px; 
+    height: 35px;
+    border: solid black 2px;
 }
